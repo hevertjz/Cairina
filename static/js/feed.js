@@ -31,10 +31,11 @@ inputBox.onkeyup = (e)=>{
         let allList = suggBox.querySelectorAll("li");
         for (let i=0; i< allList.length; i++){
             allList[i].setAttribute("onclick", "select(this)");
-        }/*else{
-            searchWrapper.classList.remove("active");
-        }*/
-    }
+        }
+        
+        
+    }else{
+        searchWrapper.classList.remove("active");}
 
     function select(element){
         let selectData = element.texContent;

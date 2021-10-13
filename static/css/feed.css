@@ -1,6 +1,4 @@
-
-
-
+/* ------------------------------------------------------------estilos div "barra de estados"---------------------*/
 .barra_estado{
     
     width: 100%;
@@ -11,124 +9,6 @@
     left: 0%;
     
 }
-/* vista de guia*/
-.contenido{
-    height: 500px;
-    width: 75%;
-    margin: auto;
-    position: absolute; /*sobre el el body*/
-    top: 150px;
-    left: 13%;
-}
-
-.footer{
-    
-    position: relative;
-    /*bottom: 0px;*/
-    top: 700px;
-    height: 12%;
-    width: 100%;
-    left: 0%;
-    
-}
-
-/* vista galeria de opciones */
-
-.square_post{  /*los squares estan incluidos en el div principal*/
-    height: 50%;
-    width: 50%;
-    background-color: yellow;
-    position: absolute; /*sobre "contenido"*/
-    top: -1%;
-    left:-0.5%
-}
-.square_space{
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    position: absolute;
-    left: 50.5%;
-    top:-1%
-}
-
-.square_explore{
-    height: 250px;
-    width: 50%;
-    background-color: green;
-    position: absolute;/*sobre "contenido"*/
-    bottom:-1%;
-    left:-0.5%
-}
-.square_connect{
-    height: 50%;
-    width: 50%;
-    background-color: black;
-    position: absolute;/*sobre "contenido"*/
-    left: 50.5%;
-    top:51%
-
-}
-
-.img_post{
-    height: 100%;
-    width: 100%;
-    position: absolute;/*sobre square_post*/
-    top: 0%;
-    left:0%
-}
-
-
-
-.img_space{
-    height: 100%;
-    width: 100%;
-    position: absolute;/*sobre square_space*/
-    right: 0%;
-    top:0%
-}
-
-.img_explore{
-    height: 100%;
-    width: 100%;
-    position: absolute;/*sobre square_explore*/
-    bottom:0%;
-    left:0%;
-}
-
-.img_connect{
-    height: 100%;
-    width: 100%;
-    position: absolute;/*sobre square_connect*/
-    right: 0%;
-    bottom: 0%;
-
-}
-
-
-
-.titulo{
-    height: 82px;
-    width: 100%;
-    position: absolute;
-    top: 61px;
-    left: 0%;
-    color: #460259;
-
-}
-
-
-
-
-h1 {
-    color: #460259;
-    text-align: center;
-}
-
-/*BOTONES*/
-
-
-
-
 .btn_icon{
     height: 50px;
     width: 50px;
@@ -180,38 +60,10 @@ h1 {
     text-align: center;
     color: #ededed;
 }
-.btn_link{
-    height: 52px;
-    width: 20%;
-    background-color: #460259;
-    position: absolute;
-    border-radius: 10%;
-    font-size: 100%;
-    top: 40%;
-    right: 40%;
-    text-align: center;
-    text-decoration: none;
-    color: #ededed;
-    font-size: 20px;
-    font-weight: bold; 
-
 
     /*tengo que vovler a hacer el css para cada boton para el javascript*/
-    
-}
 
-
-h4{
-    position: relative;
-    top: -27%;
-}
-
-.btn_link:hover{
-    background-color: #c991d8;
-    color: #ededed;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 50px 100px 0 rgba(0,0,0,0.19);
-    
-}
+/* ------------------------------------------------------------estilos div "wrapper/searchbox"---------------------*/
 
 .wrapper{
     max-width: 450px;
@@ -289,8 +141,115 @@ cursor: pointer;
     left: 22%;
 }
 
-h3{
+
+/* ------------------------------------------------------------estilos div "contenido"---------------------*/
+.contenido{
+    height: 500px;
+    width: 75%;
+    margin: auto;
+    position: absolute; /*sobre el el body*/
+    top: 150px;
+    left: 13%;
     
+}
+.square_post{  /*los squares estan incluidos en el div principal*/
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    position: absolute; /*sobre "contenido"*/
+    top: -1%;
+    left:-0.5%
+}
+.square_space{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 50.5%;
+    top:-1%
+}
+
+.square_explore{
+    height: 250px;
+    width: 50%;
+    background-color: green;
+    position: absolute;/*sobre "contenido"*/
+    bottom:-1%;
+    left:-0.5%
+}
+.square_connect{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    position: absolute;/*sobre "contenido"*/
+    left: 50.5%;
+    top:51%
+
+}
+
+.img_post{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_post*/
+    top: 0%;
+    left:0%
+}
+
+
+
+.img_space{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_space*/
+    right: 0%;
+    top:0%
+}
+
+.img_explore{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_explore*/
+    bottom:0%;
+    left:0%;
+}
+
+.img_connect{
+    height: 100%;
+    width: 100%;
+    position: absolute;/*sobre square_connect*/
+    right: 0%;
+    bottom: 0%;
+
+}
+.btn_link{
+    height: 52px;
+    width: 20%;
+    background-color: #460259;
+    position: absolute;
+    border-radius: 10%;
+    font-size: 100%;
+    top: 40%;
+    right: 40%;
+    text-align: center;
+    text-decoration: none;
+    color: #ededed;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.btn_link:hover{
+    background-color: #c991d8;
+    color: #ededed;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 50px 100px 0 rgba(0,0,0,0.19);
+    
+}
+/* ------------------------------------------------------------estilos div "footer"---------------------*/
+.footer{
+    
+    position: relative;
+    top: 700px;
+    height: 12%;
+    width: 100%;
+    left: 0%;
     
 }
 
@@ -302,4 +261,31 @@ h3{
     width: 500px;
     color: #460259;
 }
+
+/* ------------------------------------------------------------estilos div "titulo"---------------------*/
+.titulo{
+    height: 82px;
+    width: 100%;
+    position: absolute;
+    top: 61px;
+    left: 0%;
+    color: #460259;
+
+}
+
+h1 {
+    color: #460259;
+    text-align: center;
+}
+
+
+h4{
+    position: relative;
+    top: -27%;
+}
+
+
+
+
+
 
