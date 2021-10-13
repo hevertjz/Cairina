@@ -61,6 +61,22 @@
     color: #ededed;
 }
 
+.btn_logout{
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px 1px;
+    font-size:35px;
+    text-align: center;
+    color: #ededed;
+
+}
+
+
+
+
+
     /*tengo que vovler a hacer el css para cada boton para el javascript*/
 
 /* ------------------------------------------------------------estilos div "wrapper/searchbox"---------------------*/
