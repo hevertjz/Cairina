@@ -155,7 +155,6 @@ cursor: pointer;
 .square_post{  /*los squares estan incluidos en el div principal*/
     height: 50%;
     width: 50%;
-    background-color: yellow;
     position: absolute; /*sobre "contenido"*/
     top: -1%;
     left:-0.5%
@@ -163,7 +162,6 @@ cursor: pointer;
 .square_space{
     height: 50%;
     width: 50%;
-    background-color: blue;
     position: absolute;
     left: 50.5%;
     top:-1%
@@ -172,7 +170,6 @@ cursor: pointer;
 .square_explore{
     height: 250px;
     width: 50%;
-    background-color: green;
     position: absolute;/*sobre "contenido"*/
     bottom:-1%;
     left:-0.5%
@@ -180,7 +177,6 @@ cursor: pointer;
 .square_connect{
     height: 50%;
     width: 50%;
-    background-color: black;
     position: absolute;/*sobre "contenido"*/
     left: 50.5%;
     top:51%
